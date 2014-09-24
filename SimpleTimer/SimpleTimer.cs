@@ -8,7 +8,6 @@ namespace SimpleTimer
 		{
 			var timer = new System.Timers.Timer(delayInMilliseconds);
 			timer.Elapsed += (source, e) => method();
-
 			timer.Enabled = true;
 			timer.Start();
 
