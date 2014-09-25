@@ -15,6 +15,7 @@ SimpleTimer.SetTimeout(() => Debug.WriteLine("Code called once in 10s"), 10000);
 
 ```
 
+Static class and methods to execute code in an interval
 
 ```csharp
 
